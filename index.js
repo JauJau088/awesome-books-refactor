@@ -75,6 +75,6 @@ navContact.onclick = () => {
 };
 
 // Date time with Luxon
-const dateLuxon = document.querySelector('#date-luxon');
+// const dateLuxon = document.querySelector('#date-luxon');
 
-dateLuxon.textContent = DateTime.now();
+// dateLuxon.textContent = DateTime.now();
