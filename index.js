@@ -1,7 +1,6 @@
 //=== 0. Imports
 import isStorageAvailable from "./modules/local-storage-checker.js";
 import Bookshelf from "./modules/class-bookshelf.js";
-import { DateTime } from "luxon";
 
 //=== 1. Book add and remove
 const title = document.querySelector('#book-title');
