@@ -1,6 +1,7 @@
 //=== 0. Imports
 import isStorageAvailable from "./modules/local-storage-checker.js";
 import Bookshelf from "./modules/class-bookshelf.js";
+import { DateTime } from "./modules/luxon.js";
 
 //=== 1. Book add and remove
 const title = document.querySelector('#book-title');
@@ -75,6 +76,7 @@ navContact.onclick = () => {
 };
 
 // Date time with Luxon
-// const dateLuxon = document.querySelector('#date-luxon');
+const dateLuxon = document.querySelector('#date-luxon');
+const now = DateTime.now();
 
-// dateLuxon.textContent = DateTime.now();
+dateLuxon.textContent = `${now.monthLong} ${now.day}th ${now.year}`;
