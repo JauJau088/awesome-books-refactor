@@ -1,0 +1,20 @@
+{
+  "name": "awesome-books-refactor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JauJau088/awesome-books-refactor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JauJau088/awesome-books-refactor/issues"
+  },
+  "homepage": "https://github.com/JauJau088/awesome-books-refactor#readme"
+}
