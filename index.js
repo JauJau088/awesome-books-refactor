@@ -1,9 +1,9 @@
-//=== 0. Imports
-import isStorageAvailable from "./modules/local-storage-checker.js";
-import Bookshelf from "./modules/class-bookshelf.js";
-import { DateTime } from "./modules/luxon.js";
+// ### 0. Imports
+import isStorageAvailable from './modules/local-storage-checker.js';
+import Bookshelf from './modules/class-bookshelf.js';
+import { DateTime } from './modules/luxon.js';
 
-//=== 1. Book add and remove
+// ### 1. Book add and remove
 const title = document.querySelector('#book-title');
 const author = document.querySelector('#book-author');
 const form = document.querySelector('#form-add-book');
@@ -40,7 +40,7 @@ window.removeBook = removeBook;
 // Don't forget to update book list on page load as well
 newbook.updateBookList(bookList);
 
-//=== 2. Single page navigation
+// ### 2. Single page navigation
 const allBooks = document.querySelector('.all-books');
 const addBook = document.querySelector('.add-book');
 const contact = document.querySelector('.contact');

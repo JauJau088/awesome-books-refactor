@@ -1,4 +1,4 @@
-import isStorageAvailable from "./local-storage-checker.js";
+import isStorageAvailable from './local-storage-checker.js';
 
 // Book shelf class
 export default class Bookshelf {
